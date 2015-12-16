@@ -1,6 +1,6 @@
 $color-primary: #1eabf4;
 
-.navbar {
+.navbar.ng-bs-sidenav {
   background: #333742;
   border: 0 none;
   transition: width 0.2s ease;
