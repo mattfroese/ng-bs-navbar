@@ -2,7 +2,6 @@
 
 An angular directive and provider for a bootstrap navbar. Also includes a trendy sidebar!
 
-
 ## Usage
 
 ### js
@@ -10,7 +9,7 @@ Navbar works in conjunction with a provider to setup the routes and title (brand
 
 ```javascript
 angular
-.module('app', ['ng-bs-sidenav'])
+.module('app', ['ng-bs-navbar'])
 config(['navbarProvider', function(navbarProvider) {
   navbarProvider.title = {
     path: "/page-one",

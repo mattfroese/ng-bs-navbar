@@ -1,8 +1,8 @@
 angular
-  .module('ng-bs-sidenav', []);
+  .module('ng-bs-navbar', []);
 
 angular
-  .module('ng-bs-sidenav')
+  .module('ng-bs-navbar')
   .provider('navbar', function() {
     this.$get = function() { return {
       routes: this.routes,
@@ -16,7 +16,7 @@ angular
   })
 
 angular
-  .module('ng-bs-sidenav')
+  .module('ng-bs-navbar')
   .directive('navbar', ['$parse', '$window', 'navbar', function($parse, $window, navbar) {
     return {
       restrict: 'AE',

@@ -1,5 +1,5 @@
 angular
-  .module('ng-bs-sidenav')
+  .module('ng-bs-navbar')
   .provider('navbar', function() {
     this.$get = function() { return {
       routes: this.routes,

@@ -1,5 +1,5 @@
 angular
-.module('ng-bs-navbar-example', ['ngRoute','ng-bs-sidenav'])
+.module('ng-bs-navbar-example', ['ngRoute','ng-bs-navbar'])
 .config(['$routeProvider','navbarProvider', function($routeProvider, navbarProvider) {
   $routeProvider
   .when('/page-one', {
