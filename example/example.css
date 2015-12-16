@@ -1,0 +1,12 @@
+@media (min-width: 767px) {
+  .navbar-fixed-left+.main {
+    margin-left: 200px;
+  }
+  .navbar-fixed-left.navbar-condensed+.main {
+    margin-left: 80px;
+  }
+}
+
+.main {
+  padding: 20px;
+}

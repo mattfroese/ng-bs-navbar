@@ -1,0 +1,34 @@
+{
+  "name": "ng-bs-navbar",
+  "version": "0.0.1",
+  "authors": [
+    "Matt Froese <froese.matt@gmail.com>"
+  ],
+  "description": "An angular directive for the ultimate bootstrap navbar",
+  "main": [
+    "src/ng-bs-navbar.js",
+    "src/ng-bs-navbar.css"
+  ],
+  "keywords": [
+    "angular",
+    "bootstrap",
+    "sidenav",
+    "navbar",
+    "navigation"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/mattfroese/ng-bs-navbar",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "~1.4.8",
+    "angular-bootstrap": "~0.14.3",
+    "angular-route": "~1.4.8",
+    "bootstrap": "~3.3.6"
+  }
+}

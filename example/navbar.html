@@ -1,0 +1,53 @@
+<!doctype html>
+<html ng-app="ng-bs-navbar-example">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css" type="text/css" />
+
+    <link rel="stylesheet" href="../dist/ng-bs-navbar.css" type="text/css" />
+    <link rel="stylesheet" href="../dist/ng-bs-navbar-theme-dark.css" type="text/css" />
+
+    <link rel="stylesheet" href="example.css" type="text/css" />
+</head>
+<body>
+
+  <navbar position="left"></navbar>
+
+  <div class="main" ng-controller="ExampleController">
+    <h1>ng-bs-navbar example</h1>
+
+    <p>Examples on how to interactive with the navbar</p>
+
+    <h4>Position</h4>
+    <pre>{{ position }}</pre>
+    <div class="btn-group">
+      <a class="btn btn-primary" ng-click="position = 'left'">Left</a>
+      <a class="btn btn-primary" ng-click="position = 'top'">Top</a>
+    </div>
+
+    <h4>Size (left only)</h4>
+
+    <p>Setting for the navbar when positioned to the left <i>and right in the future</i></p>
+    <pre>{{ size }}</pre>
+    <div class="btn-group">
+      <a class="btn btn-primary" ng-click="size = 'condensed'">Condensed</a>
+      <a class="btn btn-primary" ng-click="size = 'full'">Full</a>
+    </div>
+
+    <h3>Current Controller</h3>
+    <div class="well" ng-view></div>
+  </div>
+
+  <script type="text/javascript" src="../bower_components/angular/angular.min.js"></script>
+  <script type="text/javascript" src="../bower_components/angular-route/angular-route.min.js"></script>
+  <script type="text/javascript" src="../bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
+
+  <script type="text/javascript" src="../dist/ng-bs-navbar.js"></script>
+  <script type="text/javascript" src="navbar.js"></script>
+</body>
+</html>

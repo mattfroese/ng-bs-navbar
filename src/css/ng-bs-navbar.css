@@ -1,0 +1,174 @@
+.navbar-fixed-left {
+  z-index: 999;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  border-radius: 0;
+
+  .collapse {
+    display: block;
+    max-height: 0;
+    overflow: hidden;
+
+    &.in {
+      max-height: 999px;
+    }
+  }
+  .navbar-collapse {
+    padding: 0;
+  }
+  .navbar-toggle {
+    padding: 9px 0;
+    &.active {
+      .icon-bar:first-child {
+        background-color: 'red';
+      }
+      .icon-bar:last-child {
+        background-color: 'green';
+      }
+    }
+  }
+  ul.nav.navbar-nav {
+    margin: 0;
+    width: 100%;
+
+    li {
+      width: 100%;
+
+      > a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        cursor: pointer;
+
+        > .icon {
+          margin-right: 4px;
+          display: inline-block;
+          vertical-align: top;
+        }
+        > .title {
+          padding-top: 2px;
+          display: inline-block;
+        }
+      }
+    }
+  }
+
+  .dropdown {
+    .caret {
+      position: absolute;
+      right: 12px;
+      top: 21px;
+      transform: rotate(90deg);
+    }
+    &.open {
+      .caret {
+        transform: rotate(0deg);
+      }
+    }
+  }
+
+  @media (min-width: 767px) {
+    height: 100%;
+    width: 200px;
+
+    .navbar-collapse {
+      padding: 0;
+    }
+
+    .navbar-header {
+      min-height: 70px;
+      width: 100%;
+      float: none;
+
+      .navbar-brand {
+        width: 100%;
+
+        > .icon {
+          margin-right: 4px;
+          display: inline-block;
+          vertical-align: top;
+        }
+        > .title {
+          padding-top: 5px;
+          display: inline-block;
+        }
+
+      }
+    }
+    .dropdown-menu {
+      position: relative;
+      float: none;
+      li {
+        > a {
+          padding: 4px 15px;
+        }
+      }
+    }
+    &.navbar-condensed {
+      width: 80px;
+
+      .navbar-header {
+        height: 70px;
+        width: 100%;
+        text-align: center;
+        .navbar-brand {
+          width: 100%;
+        }
+        .title {
+          display: none;
+        }
+      }
+
+      .dropdown {
+        .caret {
+          right: 12px;
+          top: 26px;
+        }
+        &.open {
+          .caret {
+            transform: rotate(-90deg);
+          }
+        }
+      }
+      .dropdown-menu {
+        position: absolute;
+        left: 80px;
+        top: 0;
+
+        &:after {
+          content: " ";
+          clear: both;
+        }
+
+        li {
+          width: 100%;
+          > a {
+            padding: 7px 12px;
+            > .icon {
+              margin-right: 4px;
+              display: inline-block;
+              vertical-align: top;
+            }
+            > .title {
+              padding-top: 2px;
+              display: inline-block;
+            }
+          }
+        }
+      }
+      ul.nav {
+        > li {
+          > a {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            text-align: center;
+            > .title {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
