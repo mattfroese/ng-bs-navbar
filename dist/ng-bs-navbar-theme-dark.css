@@ -196,7 +196,7 @@
 
 .navbar.ng-bs-sidenav .nav li > a {
   transition: all 0.2s ease;
-  color: #686b73;
+  color: #fff;
 }
 
 .navbar.ng-bs-sidenav .nav li.open > a,

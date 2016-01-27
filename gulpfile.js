@@ -90,7 +90,7 @@ gulp.task('css', function () {
 });
 
 gulp.task('watch', function () {
-  gulp.watch([ INPUT + 'css/*.css'], ['css']);
+  gulp.watch([ INPUT + 'css/*.css'], ['css', 'css:theme']);
   gulp.watch([ INPUT + 'js/*.js'], ['scripts']);
 });
 

@@ -106,7 +106,7 @@
       }
     }
     &.navbar-condensed {
-      width: 80px;
+      width: 100px;
 
       .navbar-header {
         height: 70px;
@@ -115,25 +115,23 @@
         .navbar-brand {
           width: 100%;
         }
-        .title {
-          display: none;
-        }
       }
 
       .dropdown {
         .caret {
-          right: 12px;
-          top: 26px;
+          right: 8px;
+          top: 50%;
+          transform: translateY(-50%);
         }
         &.open {
           .caret {
-            transform: rotate(-90deg);
+            transform: translateY(-50%) rotate(-90deg);
           }
         }
       }
       .dropdown-menu {
         position: absolute;
-        left: 80px;
+        left: 100px;
         top: 0;
 
         &:after {
@@ -163,9 +161,6 @@
             padding-top: 15px;
             padding-bottom: 15px;
             text-align: center;
-            > .title {
-              display: none;
-            }
           }
         }
       }

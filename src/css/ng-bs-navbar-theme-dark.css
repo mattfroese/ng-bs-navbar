@@ -160,7 +160,7 @@ $color-primary: #1eabf4;
     li {
       > a {
         transition: all 0.2s ease;
-        color: #686b73;
+        color: #fff;
       }
 
       &.open > a,

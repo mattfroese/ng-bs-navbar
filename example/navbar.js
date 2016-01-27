@@ -24,7 +24,7 @@ angular
   }
 
   navbarProvider.routes = [{
-    materialIcon: "code",
+    svg: "example-icon.svg",
     path: "/page-one",
     name: "Page One"
   },{

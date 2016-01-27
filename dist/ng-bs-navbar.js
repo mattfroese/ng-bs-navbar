@@ -101,6 +101,7 @@ angular
                 '<li ng-repeat="route in navbar.routes" data-ng-class="navClass(route)">' +
                     '<a ng-click="navigate(route)" ng-class="{\'dropdown-toggle\': route.sub }">' +
                       '<i ng-show="route.materialIcon" class="icon material-icons">{{route.materialIcon}}</i>' +
+                      '<div class="icon icon-svg" ng-show="route.svg" ng-include="route.svg"></div>' +
                       '<span class="title">{{route.name}}</span>' +
                       '<span ng-show="route.sub" class="caret"><span>' +
                     '</a>' +
@@ -108,6 +109,7 @@ angular
                       '<li ng-repeat="subroute in route.sub" data-ng-class="navClass(subroute,route)">' +
                         '<a ng-click="navigate(subroute)">' +
                           '<i ng-show="subroute.materialIcon" class="icon material-icons">{{subroute.materialIcon}}</i>' +
+                          '<div class="icon icon-svg" ng-show="subroute.svg" ng-include="subroute.svg"></div>' +
                           '<span class="title">{{subroute.name}}</span>' +
                         '</a>' +
                       '</li>' +

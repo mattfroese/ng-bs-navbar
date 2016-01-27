@@ -91,7 +91,7 @@
     padding: 4px 15px;
   }
   .navbar-fixed-left.ng-bs-sidenav.navbar-condensed {
-    width: 80px;
+    width: 100px;
   }
   .navbar-fixed-left.ng-bs-sidenav.navbar-condensed .navbar-header {
     height: 70px;
@@ -101,20 +101,19 @@
   .navbar-fixed-left.ng-bs-sidenav.navbar-condensed .navbar-header .navbar-brand {
     width: 100%;
   }
-  .navbar-fixed-left.ng-bs-sidenav.navbar-condensed .navbar-header .title {
-    display: none;
-  }
   .navbar-fixed-left.ng-bs-sidenav.navbar-condensed .dropdown .caret {
-    right: 12px;
-    top: 26px;
+    right: 8px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
   }
   .navbar-fixed-left.ng-bs-sidenav.navbar-condensed .dropdown.open .caret {
-    -webkit-transform: rotate(-90deg);
-            transform: rotate(-90deg);
+    -webkit-transform: translateY(-50%) rotate(-90deg);
+            transform: translateY(-50%) rotate(-90deg);
   }
   .navbar-fixed-left.ng-bs-sidenav.navbar-condensed .dropdown-menu {
     position: absolute;
-    left: 80px;
+    left: 100px;
     top: 0;
   }
   .navbar-fixed-left.ng-bs-sidenav.navbar-condensed .dropdown-menu:after {
@@ -140,9 +139,6 @@
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
-  }
-  .navbar-fixed-left.ng-bs-sidenav.navbar-condensed ul.nav > li > a > .title {
-    display: none;
   }
 }
 

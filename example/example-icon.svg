@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 25.5 32" style="enable-background:new 0 0 25.5 32;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#4D4D4D;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g>
+	<path class="st0" d="M24.8,30.2c0,0.7-0.5,1.2-1.2,1.2H1.9c-0.7,0-1.2-0.5-1.2-1.2V1.8c0-0.7,0.5-1.2,1.2-1.2h21.7
+		c0.7,0,1.2,0.5,1.2,1.2V30.2z"/>
+	<line class="st0" x1="0.7" y1="20.6" x2="24.1" y2="20.6"/>
+	<line class="st0" x1="0.7" y1="10.4" x2="24.8" y2="10.4"/>
+	<circle class="st0" cx="20.3" cy="4.9" r="1.5"/>
+	<circle class="st0" cx="20.3" cy="16" r="1.5"/>
+	<circle class="st0" cx="20.3" cy="26.2" r="1.5"/>
+	<line class="st0" x1="5.1" y1="4.9" x2="15.9" y2="4.9"/>
+	<line class="st0" x1="5.1" y1="16.3" x2="15.9" y2="16.3"/>
+	<line class="st0" x1="5.1" y1="26.5" x2="15.9" y2="26.5"/>
+</g>
+</svg>
